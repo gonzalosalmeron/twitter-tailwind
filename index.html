@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e636f3aaa5.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="imagenes/twitter-2.png">
+
+    <title>Inicio/Twitter</title>
+</head>
+
+<body>
+    <div id="wrapper" class="bg-black min-h-screen flex justify-center">
+        <!-- LEFT SIDEBAR -->
+        <div>
+            <div class="min-h-screen text-center mb-10 ml-3">
+                <div class="py-2">
+                    <div class="h-12 flex items-center mb-2">
+                        <div class="p-2.5 hover:bg-blue-400 hover:bg-opacity-10 rounded-full text-gray-300">
+                            <i class="fab fa-twitter text-3xl"></i>
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Inicio</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-hashtag"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Explorar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Notificaciones</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Mensajes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-bookmark"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Guardados</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="far fa-list-alt"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Listas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Perfil</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-gray-300 font-bold text-xl mb-6">
+                        <div class="hover:bg-blue-300 hover:bg-opacity-10 hover:text-blue-400 py-2 pl-4 pr-6 rounded-full transition duration-200 flex items-center">
+                            <div class="w-5">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="hidden xl:block">
+                                <p class="ml-4">Más opciones</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="py-1 h-12 flex items-center justify-start text-white font-bold text-lg">
+                        <button class="bg-blue-400 hover:bg-blue-500 py-3 px-3 xl:px-20 rounded-full transition duration-200 flex items-center focus:outline-none">
+                            <div class="block xl:hidden w-7 h-7">
+                                <i class="fas fa-feather-alt"></i>
+                            </div>
+                            <p class="font-bold hidden xl:block">Twittear</p>
+                    </button>
+                    </div>
+                </div>
+
+                <!-- PROFILE -->
+                <div class="flex items-center">
+                    <div class="flex items-center xl:ml-0 xl:mx-4 hover:bg-blue-300 hover:bg-opacity-10 py-2 px-2 xl:px-4 rounded-full transition duration-200 -ml-1">
+                        <div>
+                            <img src="imagenes/9ntM4ZKj_400x400.jpg" alt="" class="w-11 rounded-full block">
+                        </div>
+                        <div class="mx-6 hidden xl:block text-left">
+                            <p class="text-gray-200 font-bold">Gonza Salmerón</p>
+                            <p class="text-gray-500">@gonzxxlo</p>
+                        </div>
+                        <div class="text-gray-200 hidden xl:block">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- CONTENT CENTER -->
+        <div id="center" class="min-h-screen border-r border-l border-gray-700">
+            <div class="flex justify-between items-center py-3 px-5 border-b border-gray-600">
+                <a class="text-gray-300 font-bold text-xl pr-auto" href="#">Inicio</a>
+                <a href="#">
+                    <i class="fas fa-star-of-david text-blue-400 text-2xl"></i>
+                </a>
+            </div>
+            <!-- DUDA PARA LUISMA: CÓMO ESTABLEZCO 600PX CON TAILWIND -->
+            <div class="py-2 pl-5 pr-8 border-b border-gray-600">
+                <div class="flex items-center text-gray-300">
+                    <a href=""><img src="imagenes/9ntM4ZKj_400x400.jpg" alt="" class="rounded-full w-12"></a>
+                    <input type="text" class="placeholder-gray-500 text-xl bg-transparent focus:outline-none focus:tracking-normal tracking-wide mx-3" placeholder="¿Qué está pasando?">
+                </div>
+                <div class="flex justify-between items-center text-blue-500 ml-12 mt-6">
+                    <div>
+                        <a href="#" class="text-xl mt-5 hover:bg-blue-300 hover:bg-opacity-10 rounded-full px-2 py-1 transition duration-200">
+                            <i class="far fa-image"></i>
+                        </a>
+                        <a href="#" class="text-xl mt-5 hover:bg-blue-300 hover:bg-opacity-10 rounded-full px-2 py-1 transition duration-200">
+                            <i class="fas fa-images"></i>
+                        </a>
+                        <a href="#" class="text-xl mt-5 hover:bg-blue-300 hover:bg-opacity-10 rounded-full px-2 py-1 transition duration-200">
+                            <i class="far fa-chart-bar"></i>
+                        </a>
+                        <a href="#" class="text-xl mt-5 hover:bg-blue-300 hover:bg-opacity-10 rounded-full px-2 py-1 transition duration-200">
+                            <i class="far fa-smile"></i>
+                        </a>
+                        <a href="#" class="text-xl mt-5 hover:bg-blue-300 hover:bg-opacity-10 rounded-full px-2 py-1 transition duration-200">
+                            <i class="far fa-calendar-alt"></i>
+                        </a>
+                    </div>
+                    <div class="py-1 h-12 text-white font-bold text-lg">
+                        <button class="bg-blue-400 hover:bg-blue-500 py-2 px-4 rounded-full transition duration-200 flex items-center focus:outline-none font-bold">
+                            Twittear
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="h-3 bg-gray-600 bg-opacity-30 border-b border-gray-600"></div>
+            </div>
+            <!-- TWEETS START -->
+            <div class="border-b border-gray-600 pb-2">
+                <div class="flex justify-between">
+                    <div class="flex justify-start">
+                        <img src="imagenes/ibai.jpg" alt="" class="h-12 w-12 rounded-full m-4">
+                        <div>
+                            <div class="flex justify-start overflow-ellipsis mt-4">
+                                <p class="font-bold text-gray-200 mr-2">Ibai</p>
+                                <!-- USO DE LA CLASE ELLIPSIS -->
+                                <p class="text-sm text-gray-500">@IbaiLlanos</p>
+                            </div>
+                            <div class="text-gray-200">
+                                <p>chavales que pasa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-gray-500 m-4 lg:ml-5 xl:ml-10">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="flex justify-start space-x-10 text-sm items-center text-gray-500 mx-10 lg:mx-16 pl-4">
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="far fa-comments"></i></a>
+                        <p class="ml-4">20 mil</p>
+                    </div>
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="fas fa-retweet"></i></a>
+                        <p class="ml-4"> 13.2 mil</p>
+                    </div>
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <p class="ml-4">40 mil</p>
+                    </div>
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b border-gray-600 pb-2">
+                <div class="flex justify-between">
+                    <div class="flex justify-start">
+                        <img src="imagenes/ibai.jpg" alt="" class="h-12 w-12 rounded-full m-4">
+                        <div>
+                            <div class="flex justify-start overflow-ellipsis mt-4">
+                                <p class="font-bold text-gray-200 mr-2">Ibai</p>
+                                <!-- USO DE LA CLASE ELLIPSIS -->
+                                <p class="text-sm text-gray-500">@IbaiLlanos</p>
+                            </div>
+                            <div class="text-gray-200">
+                                <p>chavales que pasa</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-gray-500 m-4 lg:ml-5 xl:ml-10">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="flex justify-start space-x-10 text-sm items-center text-gray-500 mx-10 lg:mx-16 pl-4">
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="far fa-comments"></i></a>
+                        <p class="ml-4">20 mil</p>
+                    </div>
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="fas fa-retweet"></i></a>
+                        <p class="ml-4"> 13.2 mil</p>
+                    </div>
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <p class="ml-4">40 mil</p>
+                    </div>
+                    <div class="flex justify-start items-center">
+                        <a href="#"><i class="far fa-share-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- RIGHT SIDEBAR -->
+        <div class="min-h-screen mx-6 w-80 hidden lg:block">
+            <div>
+                <div class="text-gray-400 mt-1 bg-gray-600 bg-opacity-40 py-3 px-4 rounded-full">
+                    <i class="fas fa-search mr-3"></i>
+                    <input type="text" placeholder="Buscar en Twitter" class="bg-transparent focus:outline-none">
+                </div>
+            </div>
+            <div class="bg-gray-600 bg-opacity-40 rounded-xl mt-6">
+                <div class="border-b border-gray-500 p-4 text-gray-200 font-bold text-xl">
+                    <p>Qué está pasando</p>
+                </div>
+                <div class="border-b border-gray-600 p-4 flex">
+                    <div>
+                        <p class="text-sm text-gray-500">Peliculas & TV · Ayer</p>
+                        <p class="font-bold text-gray-200">'Falcon y el Soldado del Invierno': se estrena la nueva seria de Marvel</p>
+                    </div>
+                    <div class="w-40 h-16 bg-cover bg-center rounded-lg ml-3" style="background-image: url('imagenes/GarnO4ps.jfif');"></div>
+                </div>
+                <div class="border-b border-gray-600 p-4 flex">
+                    <div>
+                        <p class="text-sm text-gray-500">MUNDO · En directo</p>
+                        <p class="font-bold text-gray-200">Japón activa alerta por tsunami tras terremoto de 7.2 en el noreste del país</p>
+                    </div>
+                    <div class="w-40 h-16 bg-cover bg-center rounded-lg ml-3" style="background-image: url('imagenes/japon.jfif');"></div>
+                </div>
+                <div class="p-4 flex border-b border-gray-500">
+                    <div>
+                        <p class="text-sm text-gray-500">Política · Tendencia</p>
+                        <p class="font-bold text-gray-200">Erdogan</p>
+                        <p class="text-sm text-gray-500">117 mil Tweets</p>
+                    </div>
+                </div>
+                <div class="p-4 flex items-center justify-between text-blue-500">
+                    <a href="#">Mostrar más...</a>
+                </div>
+            </div>
+            <div class="bg-gray-600 bg-opacity-40 rounded-xl mt-6">
+                <div class="border-b border-gray-500 p-4 text-gray-200 font-bold text-xl">
+                    <p>A quién seguir</p>
+                </div>
+                <div class="border-b border-gray-600 p-4 flex items-center justify-between">
+                    <div class="flex items-center">
+                        <img src="imagenes/rocketfy.jpg" alt="" class="h-12 w-12 rounded-full mr-4">
+                        <div>
+                            <p class="font-bold text-gray-200">Rocketfy</p>
+                            <p class="text-sm text-gray-500">@Rocketfy</p>
+                        </div>
+                    </div>
+                    <div class="ml-3">
+                        <button class="border border-blue-400 py-1 px-4 hover:bg-blue-500 hover:bg-opacity-10 rounded-full text-blue-400 font-bold">Seguir</button>
+                    </div>
+                </div>
+                <div class="border-b border-gray-600 p-4 flex items-center justify-between">
+                    <div class="flex items-center">
+                        <img src="imagenes/nagra.jpg" alt="" class="h-12 w-12 rounded-full mr-4">
+                        <div>
+                            <p class="font-bold text-gray-200">NAGRA</p>
+                            <p class="text-sm text-gray-400">@NAGRAKUDELSKI</p>
+                        </div>
+                    </div>
+                    <div class="ml-3">
+                        <button class="border border-blue-400 py-1 px-4 hover:bg-blue-500 hover:bg-opacity-10 rounded-full text-blue-400 font-bold">Seguir</button>
+                    </div>
+                </div>
+                <div class="p-4 flex items-center justify-between border-b border-gray-600">
+                    <div class="flex items-center">
+                        <img src="imagenes/nagra.jpg" alt="" class="h-12 w-12 rounded-full mr-4">
+                        <div>
+                            <p class="font-bold text-gray-200">NAGRA</p>
+                            <p class="text-sm text-gray-400">@NAGRAKUDELSKI</p>
+                        </div>
+                    </div>
+                    <div class="ml-3">
+                        <button class="border border-blue-500 py-1 px-4 hover:bg-blue-500 hover:bg-opacity-10 rounded-full text-blue-400 font-bold">Seguir</button>
+                    </div>
+                </div>
+                <div class="p-4 flex items-center justify-between text-blue-500">
+                    <a href="#">Mostrar más...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

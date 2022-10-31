@@ -1,3 +1,2 @@
 # Twitter using Tailwind
-
-I did the interface of twitter 🐦 using tailwind 
+This is my first contact using Tailwind and I made the interface of Twitter 🐦
